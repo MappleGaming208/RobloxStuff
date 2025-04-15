@@ -24,11 +24,11 @@ do
         Type = Type:lower()
 
         if Type == 'error' then
-            error('[ Visual ] Error: ' .. Message)
+            error('[ ProCod ] Error: ' .. Message)
         elseif Type == 'log' then
-            print('[ Visual ] ' .. Message)
+            print('[ ProCod ] ' .. Message)
         elseif Type == 'warn' then
-            warn('[ Visual ] Warning: ' .. Message)
+            warn('[ ProCod ] Warning: ' .. Message)
         end
     end
 
